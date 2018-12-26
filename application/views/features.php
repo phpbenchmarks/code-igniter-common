@@ -17,6 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<li><a href="/benchmark/helloworld">Direct link to hello world</a></li>
 					<li><a href="/benchmark/hello-world">Routed link to hello world</a></li>
 					<li><a href="/benchmark/rest">Basic REST</a></li>
+					<li><a href="/benchmark/foo">Prescribed "Foo"</a></li>
+					<li><a href="/benchmark/bar">Prescribed "Bar"</a></li>
 				</ul>	</div>
 
 		</div>

@@ -65,8 +65,35 @@ Foo and Bar entities, with validation; 3 translations, with localization;
 The "foo" route shows a session key, a templated view of the "foo" entities,
 the users data in JSON format, and a templated and localized calendar.
 
+Notes:
+
+- CodeIgniter 3
+does not have an ORM in the traditional sense, but the object-relational
+layer maps field names in an RDB table to properties in a model
+- CodeIgniter 3 does not have events per se, but a "hook" mechanism
+with pre-defined events
+- source & template for Foo entities & their presentation not given
+- unclear what is meant by a "service" - that could be so many different things
+ 
 Components:
 
+- `application/models/Foo.php` and `Bar.php` - entity classes
+- `Foo.php` has a validation rule set added, while `Bar.php` does not
+- `application/languages/en/phpbenchmarks.php` - translations for 'en'
+- `application/languages/en_GB/phpbenchmarks.php` - translations for 'en_GB'
+- `application/languages/fr_FR/phpbenchmarks.php` - translations for 'fr_FR'
+- `application/config/config.php` - hooks enabled on line 103
+- `application/config/hooks.php` - two hooks configured
+- `application/hooks/Firsthook.php` and `Secondhook.php` - hooks that do nothing
+- `application/config/routes.php` - routes for /benchmark/foo and /bar added,
+mapping to methods of the same name inside the Features controller
+- `application/controllers/Features.php` - handler for the above routes
+- `application/config/config.php` - session storage configured, line 383
+- `application/views/calendar_row.php` - template for a calendar cell
+- `application/views/foo_view.php` - template for the "foo" benchmark page
+- `application/config/autoload.php` - register "useful" package on line 42
+- `application/third_party/useful/...` - CI package, aka module or plugin
+- `application/third_party/useful/libraries/Worker.php` - package component
 
 Usage:
 

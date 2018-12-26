@@ -1,0 +1,34 @@
+<?php
+
+$lang['translated.1'] = 'aa_BB';
+$lang['translated.2'] = 'aa_BB';
+$lang['translated.3'] = 'aa_BB';
+$lang['translated.4'] = 'aa_BB';
+$lang['translated.5'] = 'aa_BB';
+$lang['translated.6'] = 'aa_BB';
+$lang['translated.7'] = 'aa_BB';
+$lang['translated.8'] = 'aa_BB';
+$lang['translated.9'] = 'aa_BB';
+$lang['translated.10'] = 'aa_BB';
+$lang['translated.11'] = 'aa_BB';
+$lang['translated.12'] = 'aa_BB';
+$lang['translated.13'] = 'aa_BB';
+$lang['translated.14'] = 'aa_BB';
+$lang['translated.15'] = 'aa_BB';
+$lang['translated.16'] = 'aa_BB';
+$lang['translated.17'] = 'aa_BB';
+$lang['translated.18'] = 'aa_BB';
+$lang['translated.19'] = 'aa_BB';
+$lang['translated.20'] = 'aa_BB';
+$lang['translated.21'] = 'aa_BB';
+$lang['translated.22'] = 'aa_BB';
+$lang['translated.23'] = 'aa_BB';
+$lang['translated.24'] = 'aa_BB';
+$lang['translated.25'] = 'aa_BB';
+$lang['translated.26'] = 'aa_BB';
+$lang['translated.27'] = 'aa_BB';
+$lang['translated.28'] = 'aa_BB';
+$lang['translated.29'] = 'aa_BB';
+$lang['translated.30'] = 'aa_BB';
+$lang['translated.31'] = 'aa_BB';
+$lang['smallOverload.translation'] = 'Translation {index}';
