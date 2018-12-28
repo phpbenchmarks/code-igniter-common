@@ -4,41 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "610f57baadf65157d08c2010b809d2b8",
+    "content-hash": "2a06d9ffcf2bc1827b8a6c21d77b54d2",
     "packages": [
-        {
-            "name": "codeigniter/framework",
-            "version": "3.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bcit-ci/CodeIgniter.git",
-                "reference": "30e2eafa86c4c7b6b39cea3e7089a90df9f603fb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/30e2eafa86c4c7b6b39cea3e7089a90df9f603fb",
-                "reference": "30e2eafa86c4c7b6b39cea3e7089a90df9f603fb",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.7"
-            },
-            "require-dev": {
-                "mikey179/vfsstream": "1.1.*",
-                "phpunit/phpunit": "4.* || 5.*"
-            },
-            "suggest": {
-                "paragonie/random_compat": "Provides better randomness in PHP 5.x"
-            },
-            "type": "project",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "The CodeIgniter framework",
-            "homepage": "https://codeigniter.com",
-            "time": "2018-06-12T13:45:46+00:00"
-        },
         {
             "name": "phpbenchmarks/benchmark-rest-data",
             "version": "1.0.0",
@@ -1439,20 +1406,21 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "0df1908962e7a3071564e857d86874dad1ef204a"
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/0df1908962e7a3071564e857d86874dad1ef204a",
-                "reference": "0df1908962e7a3071564e857d86874dad1ef204a",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0"
+                "php": "^5.3.3 || ^7.0",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
@@ -1485,7 +1453,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2018-01-29T19:49:41+00:00"
+            "time": "2018-12-25T11:19:39+00:00"
         }
     ],
     "aliases": [],
