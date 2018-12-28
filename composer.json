@@ -1,6 +1,6 @@
 {
 	"description": "CodeIgniter 3 Starter",
-	"name": "codeigniter3/starter3.1",
+	"name": "phpbenchmarks/code-igniter-common",
 	"type": "project",
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",
