@@ -1,23 +1,8 @@
 {
-	"description": "CodeIgniter 3 Starter",
-	"name": "codeigniter3/starter3.1",
-	"type": "project",
-	"homepage": "https://codeigniter.com",
-	"license": "MIT",
+    "name": "phpbenchmarks/code-igniter-common",
+    "license": "proprietary",
+    "type": "project",
 	"require": {
-		"php": ">=5.3.7",
- 		"phpbenchmarks/benchmark-rest-data": "1.0.0"
-	},
-	"require-dev": {
-		"mikey179/vfsStream": "1.1.*",
-		"phpunit/phpunit": "4.* || 5.*"
-	},
-	"suggest": {
-		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
-	},
-	"support": {
-		"forum": "http://forum.codeigniter.com/",
-		"slack": "https://codeigniterchat.slack.com",
-		"source": "https://github.com/bcit-ci/CodeIgniter"
+		"php": ">=5.3.7"
 	}
 }
